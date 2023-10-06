@@ -2,17 +2,22 @@
 
 }
 .nav {
-    width: 100%;
-    border: solid black;
-    height: 85px;
-    text-align: center;
-    font-size: 40px;
+  width: 100%;
+  border: solid black;
+  height: 85px;
+  text-align: center;
+  font-size: 40px;
 }
 .main {
 
 }
 .container{
-
+  border: dotted red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
 }
 .container header{
 
