@@ -9,14 +9,14 @@
 </head>
 <body>
     <nav class="nav">CSS Snippet Cheatsheet Wireframe</nav>
-    <header>This is the header with title</header>
+    <header>Ever had trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet bellow and it'll automatically select all of the code for you to copy.  </header>
     <main>
         <!-- Create three separate columns for content -->
         <div class="container">
             <header>Flexbox Row</header>
                 <header>Use these three properties to create a Flexbox row layout</header>
                 <p>.row {
-                    display: flex:
+                    display: flex;
                     flex-direction: row:
                     flex-wrap: wrap:
                 }
@@ -27,14 +27,14 @@
             </div>
         </div>
         <div class="container">
-<<<<<<< HEAD
             <header>Flexbox Column</header>
             <div class="container">
-=======
-            <header>This is the header with the title</header>
->>>>>>> c7128fb0959e364169794230d4d0d06870dd0153
-                <header>This is the title</header>
-                <p>This is the description</p>
+                <header>Use this to create a Flexbox column layout.</header>
+                <p>.column {
+                    display: flex;
+                    flex-direction: column
+                }
+                </p>
                 <pre>
                     This is the text
                 </pre>
@@ -42,8 +42,14 @@
         </div>
         <div class="container">
             <header>CSS Grid Layout</header>
-                <header>This is the title</header>
-                <p>This is the description</p>
+                <header>Build a 12-column layout using CSS Grid</header>
+                <p>.grid {
+                    display: grid;
+                    width: 100%;
+                    grid-template-colums:
+                    repeat(12, 1fr) ;
+                }
+                </p>
                 <pre>
                     This is the text
                 </pre>
